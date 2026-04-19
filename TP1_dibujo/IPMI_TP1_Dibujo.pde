@@ -309,9 +309,4 @@ void draw() {
   bezierVertex(608, 290, 619, 297, 644, 330);
   bezierVertex(530, 300, 535, 302, 456, 334);
   endShape();
-
-  // -MOUSE SETUP-
-  fill(255);
-  textSize(20);
-  text((mouseX) + " - " + mouseY, mouseX, mouseY);
 }
